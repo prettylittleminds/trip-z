@@ -8,7 +8,6 @@ Trip-Z is a web-application, which matches travellers with their ideal travel co
 - [Structure](#structure)
 - [Setup](#setup)
 - [Contributors](#contributors)
-- [Social Handles](#social-handles)
 
 ## Structure
 
