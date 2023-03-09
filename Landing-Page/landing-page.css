@@ -1,0 +1,69 @@
+*{
+    background:#FAE7E2;
+}
+
+img {
+    align-content: center;
+}
+
+.trip-z_logo {
+    height: 1080px;
+    width: 1920px;
+}
+
+.trip-buddy {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 15px;
+    text-align: center;
+    font-display: inline;
+
+    color: #6D66AE;;
+    
+}
+
+.for-everybody {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 15px;
+    text-align: center;
+    font-display: inline;
+    color: #261E68;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h5 {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 10px;
+    text-align: center;
+    
+
+    color: #E07646;
+}
+
+button {
+    font-family: monospace;
+    background-color: #261E68;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+        
+    width: 200px;
+    height: 45px;
+    left: 819px;
+    top: 363px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+  
+
