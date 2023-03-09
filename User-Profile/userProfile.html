@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Profile</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <nav>
+                <img src="trip-z.png" class="image" height="120px" width="120px">
+          
+                <!-- <a class="btn" href=""> -->
+                    <button type="button" class="btn publish">Log Out</button>
+                <!-- </a> -->
+                <a class="btn" href="/Home-Page/Contact-Us/contact-us.html">&emsp;CONTACT US &emsp;</a>
+                <a class="btn" href="/Home-Page/About-Us/about-us.html">&emsp;ABOUT US&emsp;|</a>
+                <a class="btn"  href="/Home-Page/home-page.html">HOME&emsp;|</a>
+          </nav>
+            
+        
+
+        <div class="profile">
+            <table class="myprofile">
+                <tr>
+                    <td class="myprofile"><h3 class="name">Full Name: __________</h3></td>
+                    <td class="myprofile">Rating: __________</td>
+
+                    <td class="myprofile">
+                        <button type="button" class="btn">
+                            Give a Rating
+                            <img src="edit.png" class="image1" height="10px">
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="myprofile">Bio: __________</td>
+                    <td class="myprofile">Phone Number: __________</td>
+                </tr>
+
+                <tr>
+                    <td class="myprofile">City: ________</td>
+                    <td class="myprofile">Email ID: _______</td>
+                </tr>
+
+                <tr>
+                    <td class="myprofile">Interests: __________</td>
+                    <td class="myprofile">Age: __________</td>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+<!--         
+            <button type="button" class="btn">
+                <a href="publish.html" class="publish">Publish your Trip
+                    <img src="edit.png" height="10px">
+                </a>
+            </button>
+         -->
+        <div class="trips">
+        
+        <div class="publishedtrips">
+            <h3>Published Trips</h3><br>
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+
+                    <script>
+                        card = "<table class='trip'>"+
+                            "<tr>"+
+                                "<td class='pt'>Going From: _______ &emsp;</td>"+
+                                "<td class='pt'>Starting Date: _______ &emsp;</td>"+
+                                "<td class='pt'>Number of Persons: _______ &emsp;</td>"+
+                            "</tr>"+
+
+                            "<tr>"+
+                                "<td class='pt'>Going To: _______ &emsp;</td>"+
+                                "<td class='pt'>Number of Days: _______ &emsp;</td>"+
+                            "</tr>"+
+                    "</table>"
+
+                    document.write(card);
+
+                    </script>         
+                  </div>
+                </div>
+            </div>
+    
+
+        <div class="triphistory">
+            <h3>Trip History</h3>
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+
+                    <script>
+                        card = "<table class='trip'>"+
+                            "<tr>"+
+                                "<td class='pt'>Going From: _______ &emsp;</td>"+
+                                "<td class='pt'>Starting Date: _______ &emsp;</td>"+
+                                "<td class='pt'>Number of Persons: _______ &emsp;</td>"+
+                            "</tr>"+
+
+                            "<tr>"+
+                                "<td class='pt'>Going To: _______ &emsp;</td>"+
+                                "<td class='pt'>Number of Days: _______ &emsp;</td>"+
+                                "<td class='pt'>Rating Received: _______ &emsp;</td>"
+                            "</tr>"+
+                    "</table>"
+
+                    document.write(card);
+
+                    </script>                    
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>   
+    </body>
+</html>
